@@ -122,11 +122,12 @@ write_file(paste0("Provider data last downloaded ", Sys.Date()),
 
 #############################################################################################################################
 ###################################    Download the zip to core-based statistical are    ####################################
-####################################    data from the US Derpatment of Housing and Urban Development    #####################
+####################################    data from the US Department of Housing and Urban Development and Census Bureau    ###
 #############################################################################################################################
 ### This File was downloaded manually at https://www.huduser.gov/apps/public/uspscrosswalk/home
 ### a profile needed to be created but the download was free and accessible
 ### The data set for the third quarter of 2023 was the on downloaded and used in this project
+### https://www.census.gov/geographies/reference-files/time-series/demo/metro-micro/delineation-files.html
 ### --
 ###
 
