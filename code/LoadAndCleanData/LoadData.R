@@ -20,7 +20,7 @@ library(purrr)
 ##### Set options to allow for longer time for downloads before timing out
 #####
 
-options(timeout = max(300, getOption("timeout")))
+options(timeout = max(600, getOption("timeout")))
 
 ##### --
 #####
@@ -137,4 +137,4 @@ write_file(paste0("Provider data last downloaded ", Sys.Date()),
 
 ##### Clean the environment
 #####
-remove(files, urls)
+remove(files, urls, zipped_files)
